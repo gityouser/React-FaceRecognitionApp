@@ -53,8 +53,6 @@ class App extends Component {
   }
 
   displayFaceBox = (box) => {
-    console.log(box);
-    console.log(document.querySelector('.bounding-box'));
     this.setState({box: box})
   }
 
